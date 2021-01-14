@@ -49,9 +49,9 @@ function draw(){
   poly.display();
   chain1.display();
 }
-/*
+
 function mouseDragged(){
-Matter.Body.setPosition(bird.body,{x:mouseX,y:mouseY})
+Matter.Body.setPosition(poly.body,{x:mouseX,y:mouseY})
 
 
 }
@@ -64,7 +64,6 @@ chain1.fly();
 
 function keyPressed(){
 if(keyCode===32){
-   chain1.attach(bird.body);
+   chain1.attach(poly.body);
 }
 }
-*/
